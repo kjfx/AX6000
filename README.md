@@ -7,23 +7,25 @@
 网络名称改成：OpenWrt，密码：12345678 ，频带：2.4GHz<br>
 查看WiFi信道（通常为1），可通过另外的电脑或手机APP连接这个WiFi查看信道。
 
-#### 第二步，安装VMware虚拟机，并安装OpenWrt
+#### 第二步，AX6000刷固件，降级
+
+#### 第三步，安装VMware虚拟机，并安装OpenWrt
 OpenWrt 地址：192.168.5.1    用户名：root   密码：password
 
-#### 第三步，用WinSCP上传“xqsystem.lua”到OpenWrt的目录：/usr/lib/lua/luci/controller/admin/
+#### 第四步，用WinSCP上传“xqsystem.lua”到OpenWrt的目录：/usr/lib/lua/luci/controller/admin/
 
-#### 第四步，将OpenWrt LAN口 IPv4 改为：169.254.31.1
+#### 第五步，将OpenWrt LAN口 IPv4 改为：169.254.31.1
 
-#### 第五步，开启 移动热点 ，并设置热点网络连接，去掉 Internet 协议版本 IPv4
+#### 第六步，开启 移动热点 ，并设置热点网络连接，去掉 Internet 协议版本 IPv4
 
-#### 第六步，编辑虚拟机的桥接网络
+#### 第七步，编辑虚拟机的桥接网络
 编辑 > 虚拟网络编辑器 > 更改设置
 
-#### 第七步，登录小米AX6000
+#### 第八步，登录小米AX6000
 
     http://192.168.31.1/cgi-bin/luci/;stok=XXXXXX/api/xqsystem/extendwifi_connect_inited_router?ssid=OpenWrt&password=12345678&encryption=WPA2PSKenctype=CCMP&channel=1&band=2g&admin_username=root&admin_password=admin&admin_nonce=xxx
 
-#### 第八步，通过SN获取默认root账号的密码（SN码在路由器底部或192.168.31.1 能查看到）
+#### 第九步，通过SN获取默认root账号的密码（SN码在路由器底部或192.168.31.1 能查看到）
 
     https://www.oxygen7.cn/miwifi
     

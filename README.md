@@ -33,6 +33,7 @@ OpenWrt 地址：192.168.5.1    用户名：root   密码：password
 <code>SN码格式：30212/F1ZD22032</code><br><br>
 
 # 安装ShellClash 科学上网
+小米AX6000科学上网教程：https://youtu.be/tB7BfgxWEeA
 
     export url='https://cdn.jsdelivr.net/gh/juewuy/ShellClash@master' && sh -c "$(curl -kfsSl $url/install.sh)" && source /etc/profile &> /dev/null
 

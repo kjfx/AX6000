@@ -39,6 +39,6 @@ OpenWrt 地址：192.168.5.1    用户名：root   密码：password
 
 <br>
 
-- 我使用的机场：http://t.kxswa.com/
+- 我使用的机场：http://www.txyun.xyz/
 - 电报：https://t.me/kjfxlyq
 

@@ -28,7 +28,7 @@ OpenWrt 地址：192.168.5.1    用户名：root   密码：password
 
 #### 第九步，通过SN获取默认root账号的密码（SN码在路由器底部或192.168.31.1 能查看到）
 
-    https://www.oxygen7.cn/miwifi
+    https://www.oxygen7.cn/miwifi/
     
 <code>SN码格式：30212/F1ZD22032</code><br><br>
 

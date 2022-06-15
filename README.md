@@ -32,6 +32,19 @@ OpenWrt 地址：192.168.5.1    用户名：root   密码：password
     
 <code>SN码格式：30212/F1ZD22032</code><br><br>
 
+## 常见问题：
+**需要特别注意：<br>**
+1、每次登录小米路由器后台 stok码 都会变动，请以最新登录的为准。<br>
+2、解锁SSH成功之后有可能不会有任何提示，可以用putty登录查看是否解锁成功，显示“ARE U OK”就表示解锁成功。<br>
+3、如果第一次没解锁成功，请重新登录小米路由器后台，再重新复制 stok码 ，再次解锁。<br><br>
+
+**192.168.5.1 第一次能登录，以后如果还想登录<br>**
+1、首先确定OpenWrt的的IP是否改成了 169.254.31.1，改成了这个就要用这个IP登录<br>
+2、将本地网络连接IP网段改为 OpenWrt IP 网段<br>
+3、打开VMware：关闭正在运行虚拟机OpenWrt，编辑 > 虚拟网络编辑器 > 更改设置 > 还原默认设置<br>
+4、在浏览器输入 OpenWrt IP 登录。<br><br>
+
+
 # 安装ShellClash 科学上网
 小米AX6000科学上网教程：https://youtu.be/tB7BfgxWEeA
 
@@ -39,19 +52,22 @@ OpenWrt 地址：192.168.5.1    用户名：root   密码：password
     
 如果不能安装请使用下面备用安装源：
 
-    #by fastgit.org
+    #1、by fastgit.org
     export url='https://raw.fastgit.org/juewuy/ShellClash/master' && sh -c "$(curl -kfsSl $url/install.sh)" && source /etc/profile &> /dev/null
-    #by GitHub
+    
+    #2、by GitHub
     export url='https://raw.githubusercontent.com/juewuy/ShellClash/master' && sh -c "$(curl -kfsSl $url/install.sh)" && source /etc/profile &> /dev/null
-    #by jsDelivr-CDN
+    
+    #3、by jsDelivr-CDN
     export url='https://fastly.jsdelivr.net/gh/juewuy/ShellClash@master' && sh -c "$(curl -kfsSl $url/install.sh)" && source /etc/profile &> /dev/null
 
-    #by GitHub
+    #4、by GitHub
     export url='https://raw.githubusercontent.com/juewuy/ShellClash/master' && wget -q --no-check-certificate -O /tmp/install.sh $url/install.sh  && sh /tmp/install.sh && source /etc/profile &> /dev/null
-    #By jsDelivrCDN
+    
+    #5、By jsDelivrCDN
     export url='https://fastly.jsdelivr.net/gh/juewuy/ShellClash@master' && wget -q --no-check-certificate -O /tmp/install.sh $url/install.sh  && sh /tmp/install.sh && source /etc/profile &> /dev/null
 
-    #by shellclash.ga
+    #6、by shellclash.ga
     export url='http://shellclash.ga/' && wget -q -O /tmp/install.sh $url/install.sh  && sh /tmp/install.sh && source /etc/profile &> /dev/null
 
 <br>

@@ -30,6 +30,7 @@ OpenWrt 地址：192.168.5.1    用户名：root   密码：password
 
     https://www.oxygen7.cn/miwifi/
     
+*如果以上计算密码网址打不开，请下载这个使用，<a href="https://github.com/kjfx/AX6000/releases/download/AX6000/SN.zip" target="_blank">点击下载>></a> <br>
 <code>SN码格式：30212/F1ZD22032</code><br><br>
 
 ## 常见问题：

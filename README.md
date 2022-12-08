@@ -29,6 +29,7 @@ OpenWrt 地址：192.168.5.1    用户名：root   密码：password
 #### 第九步，通过SN获取默认root账号的密码（SN码在路由器底部或192.168.31.1 能查看到）
 
     https://www.oxygen7.cn/miwifi/
+    https://miwifi.dev/ssh
     
 *如果以上计算密码网址打不开，请下载这个使用，<a href="https://github.com/kjfx/AX6000/releases/download/AX6000/SN.zip" target="_blank">点击下载>></a> <br>
 <code>SN码格式：30212/F1ZD22032</code><br><br>

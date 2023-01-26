@@ -1,6 +1,6 @@
 # 小米AX6000解锁ssh，刷机openwrt固件 clash翻墙，AX6000 科学上网
 本教程解锁 AX6000 SSH 不需要借助其它软路由，教程有点长，请大家仔细看视频教程<br>
-AX6000解锁SSH 视频教程：https://youtu.be/oT6OvBD3gBg
+AX6000解锁SSH 视频教程：https://youtu.be/E1M3eU45S1k
 
 #### 工具下载，<a href="https://github.com/kjfx/AX6000/releases/download/AX6000/AX6000-SSH.zip" target="_blank">点击下载>></a>
 
@@ -49,7 +49,7 @@ OpenWrt 地址：192.168.5.1    用户名：root   密码：password
 
 
 # 安装ShellClash 科学上网
-小米AX6000科学上网教程：https://youtu.be/D21KphJTyt4
+小米AX6000科学上网教程：https://youtu.be/plVzrwb9BeU
 
     export url='https://cdn.jsdelivr.net/gh/juewuy/ShellClash@master' && sh -c "$(curl -kfsSl $url/install.sh)" && source /etc/profile &> /dev/null
     

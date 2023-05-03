@@ -48,12 +48,12 @@ OpenWrt 地址：192.168.5.1    用户名：root   密码：password
 5、在浏览器输入 OpenWrt IP 登录。<br><br>
 
 **如果出现：{"msg":"一键换机过程中请求对端接口失败","code":1643}**<br>
-在虚拟机中，使用<br>
+在虚拟机中，输入：<br>
 vim /etc/config/dhcp<br>
 然后按住d键，删除全部内容，然后按 ESC 键<br>
 再按":wq"<br>
 再按回车键<br>
-然后重启虚拟机<br>
+然后重启虚拟机，输入"reboot"<br>
 
 
 # 安装ShellClash 科学上网

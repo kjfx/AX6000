@@ -28,7 +28,6 @@ OpenWrt 地址：192.168.5.1    用户名：root   密码：password
 
 #### 第九步，通过SN获取默认root账号的密码（SN码在路由器底部或192.168.31.1 能查看到）
 
-    https://www.oxygen7.cn/miwifi/
     https://miwifi.dev/ssh
     
 *如果以上计算密码网址打不开，请下载这个使用，<a href="https://github.com/kjfx/AX6000/releases/download/AX6000/SN.zip" target="_blank">点击下载>></a> <br>
@@ -59,7 +58,7 @@ vim /etc/config/dhcp<br>
 # 安装ShellClash 科学上网
 小米AX6000科学上网教程：https://youtu.be/vn5QdyDlTtI
 
-    export url='https://fastly.jsdelivr.net/gh/juewuy/ShellClash@master' && sh -c "$(curl -kfsSl $url/install.sh)" && source /etc/profile &> /dev/null
+    export url='https://fastly.jsdelivr.net/gh/juewuy/ShellCrash@master' && sh -c "$(curl -kfsSl $url/install.sh)" && source /etc/profile &> /dev/null
     
 如果不能安装请使用下面备用安装源：
 
@@ -70,7 +69,7 @@ vim /etc/config/dhcp<br>
     export url='https://fastly.jsdelivr.net/gh/juewuy/ShellClash@master' && sh -c "$(curl -kfsSl $url/install.sh)" && source /etc/profile &> /dev/null
 
     #3
-    export url='https://gh.shellclash.cf/master' && sh -c "$(curl -kfsSl $url/install.sh)" && source /etc/profile &> /dev/null
+    export url='https://gh.jwsc.eu.org/master' && sh -c "$(curl -kfsSl $url/install.sh)" && source /etc/profile &> /dev/null
 
     #4
     export url='https://raw.githubusercontent.com/juewuy/ShellClash/master' && wget -q --no-check-certificate -O /tmp/install.sh $url/install.sh  && sh /tmp/install.sh && source /etc/profile &> /dev/null

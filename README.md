@@ -2,7 +2,7 @@
 本教程解锁 AX6000 SSH 不需要借助其它软路由，教程有点长，请大家仔细看视频教程<br>
 AX6000解锁SSH 视频教程：https://youtu.be/cLSEmZ6ufE4
 
-#### 工具下载，<a href="https://github.com/kjfx/AX6000/releases/download/AX6000/AX6000-SSH.zip" target="_blank">点击下载>></a>
+#### 工具下载，<a href="https://github.com/aews/lyq/releases/download/AX6000/AX6000-SSH.zip" target="_blank">点击下载>></a>
 
 #### 第一步，设置 移动热点
 网络名称改成：OpenWrt，密码：12345678 ，频带：2.4GHz<br>
@@ -30,7 +30,7 @@ OpenWrt 地址：192.168.5.1    用户名：root   密码：password
 
     https://miwifi.dev/ssh
     
-*如果以上计算密码网址打不开，请下载这个使用，<a href="https://github.com/kjfx/AX6000/releases/download/AX6000/SN.zip" target="_blank">点击下载>></a> <br>
+*如果以上计算密码网址打不开，请下载这个使用，<a href="https://github.com/aews/lyq/releases/download/AX6000/SN.zip" target="_blank">点击下载>></a> <br>
 <code>SN码格式：30212/F1ZD22032</code><br><br>
 
 ## 常见问题：

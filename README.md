@@ -81,6 +81,7 @@ vim /etc/config/dhcp<br>
     export url='http://test.shellclash.cf' && wget -q -O /tmp/install.sh $url/install.sh  && sh /tmp/install.sh && source /etc/profile &> /dev/null
 
 <br>
+
 - [putty下载>>](https://github.com/aews/lyq/releases/download/AX6000/putty.zip)
 
 - 我使用的机场：http://www.txyun.xyz/

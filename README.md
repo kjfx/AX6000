@@ -83,7 +83,7 @@ vim /etc/config/dhcp<br>
 <br>
 
 - [putty下载>>](https://github.com/aews/lyq/releases/download/AX6000/putty.zip)
-- [192.168.31.1:9999](http://192.168.31.1:9999/)
+- [http://192.168.31.1:9999/ui](http://192.168.31.1:9999/ui)
 
 - 我使用的机场：http://www.txyun.xyz/
 - 电报：https://t.me/kjfxlyq

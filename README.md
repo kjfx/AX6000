@@ -1,3 +1,5 @@
+**Languages:** [简体中文](README.md) | [English](README.en.md) | [Русский](README.ru.md)
+
 # 小米AX6000解锁ssh，刷机openwrt固件 clash翻墙，AX6000 科学上网
 本教程解锁 AX6000 SSH 不需要借助其它软路由，教程有点长，请大家仔细看视频教程<br>
 AX6000解锁SSH 视频教程：https://youtu.be/cLSEmZ6ufE4
@@ -89,4 +91,3 @@ vim /etc/config/dhcp<br>
 
 - 我使用的机场：http://www.txyun.xyz/
 - 电报：https://t.me/kjfxlyq
-
